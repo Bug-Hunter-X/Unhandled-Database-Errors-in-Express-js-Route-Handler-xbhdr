@@ -1,0 +1,3 @@
+# Unhandled Database Errors in Express.js Route Handler
+
+This repository demonstrates a common error in Express.js applications:  failure to properly handle errors during database interactions.  The `bug.js` file shows a route handler that neglects to handle potential errors from a database query, resulting in unhelpful 500 error responses. The `bugSolution.js` file demonstrates how to improve error handling for more robust application behavior.
